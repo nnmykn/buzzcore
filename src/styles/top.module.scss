@@ -1,0 +1,33 @@
+$black : #31373D;
+
+.main {
+    text-align: center;
+    min-height: 97vh;
+    margin: 10px;
+    margin-top: 10px;
+    .button {
+        text-align: center;
+        width: 130px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin: 15px;
+        cursor: pointer;
+        span {
+            font-size: 15px;
+        }
+    }
+    .notify {
+        text-align: center;
+        margin: auto;
+        width: fit-content;
+        overflow: hidden;
+    }
+    .input_wrap {
+        min-width: 100px;
+        width: fit-content;
+        margin: auto;
+        display: flex;
+    }
+}

@@ -1,0 +1,36 @@
+$black : #31373D;
+
+.main {
+    text-align: center;
+    min-height: 97vh;
+    margin-top: 10px;
+    .button {
+        text-align: center;
+        width: 130px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin: 15px;
+        cursor: pointer;
+        span {
+            font-size: 15px;
+        }
+    }
+    .notify {
+        text-align: center;
+        margin: auto;
+        width: fit-content;
+        overflow: hidden;
+    }
+    .result_wrap {
+        margin: 15px;
+    }
+    article {
+        text-align: left;
+        margin: auto;
+        padding: 10px;
+        width: fit-content;
+        max-width: 700px;
+    }
+}

@@ -1,0 +1,22 @@
+$black : #31373D;
+.footer {
+    margin-top: 15px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    color: white;
+    line-height: 55px;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    div {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+        a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+    }
+}
